@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER" />
+
+
+    <EditText
+        android:id="@+id/edit_regname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:hint="enter name"
+        android:inputType="textPersonName"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_regemail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:hint="enter email"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edit_regpassword"
+        android:hint="enter password"
+        android:layout_marginTop="80dp"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:textColor="#FFFFFF"
+        android:text="Register"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+    <ProgressBar
+        android:id="@+id/regprogressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+
+</LinearLayout>
